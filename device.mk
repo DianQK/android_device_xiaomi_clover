@@ -33,6 +33,10 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 PRODUCT_PACKAGES += \
     folio_daemon
 
+# Folio
+PRODUCT_PACKAGES += \
+    folio_daemon
+
 # Media
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/media/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml
